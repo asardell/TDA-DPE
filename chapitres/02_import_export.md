@@ -378,7 +378,7 @@ dim(dpe_abc)
 
 ## Exercice 8 (facultatif) – Lire un CSV directement depuis une URL
 
-Quand une URL renvoie directement un fichier CSV, `read.csv()` peut la lire sans téléchargement préalable. La requête est longue : elle sert ici à montrer le principe. L'interrogation de l'API, avec ses paramètres et sa pagination, est traitée au chapitre 10.
+Quand une URL renvoie directement un fichier CSV, `read.csv()` peut la lire sans téléchargement préalable. La requête est longue : elle sert ici à montrer le principe. L'interrogation de l'API, avec ses paramètres et sa pagination, est traitée au chapitre 7.
 
 1. Lire les 10 premières lignes d'un CSV distant. L'URL suivante renvoie les DPE de Villeurbanne avec `size=10000` :
 

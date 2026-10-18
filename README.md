@@ -14,13 +14,6 @@ Les données sont filtrées sur le code postal de Villeurbanne (`code_postal_ban
 - [x] Créer et interroger une base SQLite depuis R
 - [x] Automatiser une mise à jour avec le Planificateur de tâches Windows
 - [x] Versionner et publier ses travaux avec GitHub Desktop
-- [x] Manipuler des dataframes avec R de base puis dplyr / tidyr
-- [x] Gérer les dates, les chaînes de caractères et la qualité des données
-- [x] Calculer des statistiques descriptives
-- [x] Construire des graphiques avec R de base puis ggplot2
-- [x] Créer et interroger une base SQLite depuis R
-- [x] Automatiser une mise à jour avec le Planificateur de tâches Windows
-- [x] Versionner et publier ses travaux avec GitHub Desktop
 - [x] Utiliser des structures algorithmiques, dont l'interrogation d'une API
 - [x] Tester des méthodes d'analyses multidimensionnelles (ACP, clustering, régression)
 
@@ -32,12 +25,12 @@ Les données sont filtrées sur le code postal de Villeurbanne (`code_postal_ban
 4. Chapitre 4 : Statistiques descriptives et graphiques (R de base, ggplot2, plotly)
 5. Chapitre 5 : Dates, chaînes de caractères et qualité des données
 6. Chapitre 6 : SQLite et SQL depuis R
-7. Chapitre 7 : Automatisation Windows (projet de fin)
-8. Chapitre 8 : Git et GitHub Desktop
-9. Chapitre 9 : Analyses multidimensionnelles (ACP, clustering, régression)
-10. Chapitre 10 : Algorithmique et interrogation de l'API ADEME (pagination)
+7. Chapitre 7 : Algorithmique (conditions, boucles, fonctions) et interrogation de l'API ADEME (pagination)
+8. Chapitre 8 : Automatisation Windows (projet de fin)
+9. Chapitre 9 : Git et GitHub Desktop
+10. Chapitre 10 : Analyses multidimensionnelles (ACP, clustering, régression)
 
-Le fil rouge utilise le fichier `data/dpe_villeurbanne_10000.csv` (10 000 DPE de Villeurbanne). L'interrogation de l'API ADEME, avec la pagination par curseur (`next`) et la boucle de téléchargement, est traitée dans le chapitre 10.
+Le fil rouge utilise le fichier `data/dpe_villeurbanne_10000.csv` (10 000 DPE de Villeurbanne). L'interrogation de l'API ADEME, avec la pagination par curseur (`next`) et l'écriture de chaque page dans SQLite, est traitée dans le chapitre 7.
 
 ## Fonctions abordées
 
@@ -49,10 +42,10 @@ Le fil rouge utilise le fichier `data/dpe_villeurbanne_10000.csv` (10 000 DPE de
 | 4 | `sum()`, `mean()`, `median()`, `min()`, `max()`, `sd()`, `var()`, `quantile()`, `round()`, `cor()`, `cov()`, `hist()`, `boxplot()`, `barplot()`, `table()`, `plot()`, `abline()`, `prop.table()`, `rgb()`, `ggplot2` (`ggplot()`, `geom_*()`, `labs()`), `esquisse`, `plotly` (`plot_ly()`, `ggplotly()`), `leaflet` (`leaflet()`, `addCircleMarkers()`, `colorFactor()`) |
 | 5 | `as.Date()`, `format()`, `range()`, `Sys.Date()`, `nchar()`, `trimws()`, `gsub()`, `sub()`, `grepl()`, `paste()`, `case_when()`, `duplicated()`, `is.na()`, `colSums()`, `IQR()`, `if_else()`, `%in%`, `LETTERS` |
 | 6 | `DBI`, `RSQLite`, `dbplyr` |
-| 7 | Script R, Planificateur de tâches Windows, journalisation |
-| 8 | GitHub Desktop (clone, commit, push, branche, pull request) |
-| 9 | `prcomp()`, `kmeans()`, `hclust()`, `dist()`, `lm()`, `predict()`, `summary()` |
-| 10 | `httr2`, `jsonlite`, `if`, `else`, `for`, `while`, `function()`, `return()`, `vector()`, `stopifnot()` |
+| 7 | `httr2` (`request()`, `req_url_query()`, `req_perform()`), `jsonlite` (`fromJSON()`), `if`, `else`, `else if`, `for`, `while`, `break`, `function()`, `return()`, `missing()`, `stopifnot()`, `vector()`, `seq_along()`, `names()`, `sapply()`, `n_distinct()`, `dbAppendTable()`, `Sys.sleep()` |
+| 8 | Script R, Planificateur de tâches Windows, journalisation |
+| 9 | GitHub Desktop (clone, commit, push, branche, pull request) |
+| 10 | `prcomp()`, `kmeans()`, `hclust()`, `dist()`, `lm()`, `predict()`, `summary()` |
 
 ## Liens utiles
 
