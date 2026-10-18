@@ -710,8 +710,6 @@ leaflet(passoires) |>
 
 - [Documentation de leaflet pour R](https://rstudio.github.io/leaflet/)
 - [Base Adresse Nationale (téléchargement par département)](https://adresse.data.gouv.fr/data/ban/adresses/latest/csv-with-ids)
-- [Documentation de `hist()`](https://stat.ethz.ch/R-manual/R-patched/library/graphics/html/hist.html)
-- [Documentation de `plot()`](https://stat.ethz.ch/R-manual/R-patched/library/graphics/html/plot.html)
 - [Documentation de ggplot2](https://ggplot2.tidyverse.org/)
 - [Documentation de plotly pour R](https://plotly.com/r/)
 - [Cheatsheet ggplot2](https://posit.co/resources/cheatsheets/)
